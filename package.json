@@ -1,0 +1,26 @@
+{
+  "name": "obligatorik_opgave_1",
+  "version": "1.0.0",
+  "description": "My Mandatory Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "kimb0078",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.5",
+    "yargs": "^16.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimb0078/Node_Mandatory_Assignment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kimb0078/Node_Mandatory_Assignment/issues"
+  },
+  "homepage": "https://github.com/kimb0078/Node_Mandatory_Assignment#readme"
+}
