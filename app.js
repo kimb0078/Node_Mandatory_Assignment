@@ -1,9 +1,12 @@
 const express = require('express');
-const yargs = require('yargs');
 const app = express();
 
+
+
+//Definerer directory "public" som static mappen
 app.use(express.static('public'));
 
+//GET requests for at vise websidens sider
 app.get("/", (req, res)=> {
     return res.sendFile(__dirname + "/public/html/index.html");
 });
@@ -11,10 +14,6 @@ app.get("/", (req, res)=> {
 app.get("/basicmoduler", (req,res)=> {
     return res.sendFile(__dirname + "/public/html/basicmoduler.html");
 })
-
-
-
-
 
 
 
