@@ -8,12 +8,15 @@
 <body>
     <h1>Velkommen til Kimberlys obligatoriske opgave!</h1>
 
-    <p>På denne webside vil forklare hvad jeg har lært i valgfaget Node.js. Klik på en af følgende knapper for at lære mere om de forskellige emner.</p>
+    <p>På denne webside vil jeg forklare hvad jeg har lært i valgfaget Node.js indtil videre. Klik på de enkelte emner i menuen for at lære mere om dem.</p>
 
-    <h2>Introduction</h2>
-    <p>Node.js er en JavaScript runtime, som bruger Chrome's V8 Engine til at køre JavaScript direkte på desktop computeren i stedet for i browseren.<p>
-    <p>Chrome og Node.js giver os custom libraries med metoder/funktioner, som ikke findes i JavaScript dokumentationen. Da disse funktioner ikke er en del af JavaScript, kalder de C++ metoder i V8 engine, som laver alt arbejdet bag scenen.</p>
-    <p>JavaScript </p>
+    <h2>Introduktion til Node.js</h2>
+    <p>Node.js er en JavaScript runtime, som bruger Chrome's V8 Engine til at køre JavaScript direkte på desktop computeren i stedet for i browseren.
+    Chrome og Node.js giver os custom libraries med funktioner, som ikke findes i JavaScript dokumentationen.
+        Da disse funktioner ikke er en del af JavaScript, kalder de C++ metoder i V8, som laver alt arbejdet bag kulisserne.</p>
+    <p>JavaScript er kendt som en 'interpreted language', men de fleste moderne JavaScript engines bruger ikke oversættere mens programmet kører, men compiler koden direkte til maskinesprog.
+        V8 bruger "just-in-time compilation", som compiler koden dynamisk mens programmet kører. Den starter med at compile de hyligst brugte dele af koden og compiler dele af koden løbende når der er brug for det.
+        Fordelen ved at have det på denne måde er, at webapplikationer performer bedre mens man bruger dem, selvom det tager lidt længere tid før koden er klar, da man ofte bruger tusindvis af linjer kode på hver side og derfor er oversat kode ikke en holdbar løsning i de fleste moderne webapplikationer.</p>
 
     <div class="vertical-menu">
         <a href="/" class="current">Forside</a>
