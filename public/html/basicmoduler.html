@@ -3,8 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>De basale moduler</title>
+    <link rel="stylesheet" href="../MyCSS.css">
+    <link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="menu">
+        <a href="/">Forside</a>
+        <a href="/basicmoduler" class="current">De basale moduler</a>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+    </div>
     <h1>Moduler i Node.js</h1>
     <p>Når man installerer Node.js på sin computer, gør man det muligt at importere custom libraries, kaldet for moduler, som giver JavaScript flere funktionaliter end selve JavaScript-sproget tillader.
     Der bliver som nævnt importeret JavaScript-filer med funktioner, som kalder C++ metoder i V8.</p>
@@ -13,14 +23,26 @@
     <p>Man installerer npm ved at indtaste kommandoen "npm init" i terminalen:</p>
     <img id="npm-init" src="../images/npm_init.PNG" alt="Initializing npm">
     <p>Dette tilføjer package.json-filen og mappesystemet. Hver modul har sin egen mappe med forskellige filer, som vil bruges til at installere den, alt efter hvilken kommando er blevet indtastet i terminalen.</p>
-    <p>Man installerer en modul ved at indtaste "npm install " efterfulgt af modulens navn. Alternativt kan man kopiere kommandoen fra npmjs.com siden
-    <p>Her er nogle eksempler på moduler, som jeg har installeret til denne webside.</p>
-        Som i Express-eksemplet nedenfor, kan det se sådan ud:</p>
+    <img id="npm-modules" src="../images/modules.PNG" alt="npm module library">
+    <p>Man installerer en modul ved at indtaste "npm install " efterfulgt af modulens navn. Alternativt kan man kopiere kommandoen fra npmjs.com siden, som i Express-eksemplet nedenfor, kan det se sådan ud:</p>
     <img id="npm-img" src=" ../images/npm.PNG" alt="NPM-websiden"/>
+    <p>Når man installerer moduler, bliver 'package.json' filen opdateret med modulernes navne og versionen under "dependencies". </p>
+    <img id="jasonfil" src="../images/initjson.PNG" alt="package.json">
+
+    <p>Her er nogle eksempler på moduler, som jeg har installeret til denne webside.</p>
     <h2>Express</h2>
     <p>Man skriver "npm i express" i terminalen, som følgende:<p>
     <img id="express-img" src="../images/express.PNG" alt="Express-kommando"/>
     <p>Som man kan se på billedet, blev der tilføjet 50 packages fra 37 forskellige brugere, da modulerne i NPM er 'open source'.</p>
+    <p>Express er en webapplikation-framework, som forsyner mig med HTTP-metoder og meget andet, så min Node.js applikation kan vises i en browser.
+        For eksempel gør den, at jeg kan bruge GET-requests, som henter data eller html-sider når en URL-adresse bliver indtastet i browseren.</p>
+    <h2>Nodemon</h2>
+    <p>Man installerer Nodemon ved at skrive "npm i nodemon" i terminalen:</p>
+    <img id="nodemon" src="../images/nodemon.PNG" alt="Nodemon">
+    <p>Nodemon er smart når man udvikler webapplikationer, fordi den genstarter programmet hver gang den registrerer ændringer i koden.
+    Derfor behøver jeg ikke trykke "Kør"-knappen hver gang jeg laver en ændring og vil se resultatet i browseren.
+    Jeg kan nøjes med bare at gå ind i browseren, genindlæse siden og så er ændringerne der.</p>
+
 
 </body>
 </html>
