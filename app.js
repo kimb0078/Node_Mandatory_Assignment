@@ -13,10 +13,16 @@ app.get("/", (req, res)=> {
 
 app.get("/basicmoduler", (req,res)=> {
     return res.sendFile(__dirname + "/public/html/basicmoduler.html");
-})
+});
+
+app.get("/javascript", (req,res)=> {
+    return res.sendFile(__dirname + "/public/html/javascript.html");
+});
 
 
 
+
+//Oprettelse af server
 const port  = process.env.PORT || 9000;
 
 app.listen(port, (error) => {

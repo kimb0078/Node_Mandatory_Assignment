@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="../MyCSS.css">
+    <link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Introduktion til JavaScript</h1>
+    <p>Her vil jeg skrive lidt om kendetegnene ved JavaScript, som jeg har lært på dette kursus.</p>
+    <h2>Variabler</h2>
+    <p><b>const</b> og <b>let</b> er hvad man skriver foran variabler, uanset datatype, for at definere hvilken scope de skal have.</p>
+    <p>Hvis det er en <b>const</b>, betyder det, at det er en konstant og den derfor er imutable, men værdien kan ændre sig. En <b>const</b> kan ikke overskrives.</p>
+    <p>Man vælger <b>let</b> for variabler, som skal holde sig indenfor sin egen scope. De kan for bruges til loops eller som lokal variabel.</p>
+    <p>Hvis man hverken skriver const eller let, bliver det til en global variabel. Det betyder, at variablet kan tilgås i hele programmet.</p>
+
+    <h2>Automatic Semicolon Insertion (ASI)</h2>
+    <p>I JavaScript behøver man ikke skrive semicolon ud for hver handling, da den selv kan finde ud af at tilføje det.
+    Der er dog nogle situationer, hvor det er nødvendigt selv at skrive dem, som i loops, og så er det en god idé at være konsistent med om man skriver dem eller ej.
+    Jeg skriver dem altid selv, da det er blevet til en vane med andre sprog, og jeg er bange for jeg begynder at glemme dem i andre sprog. :)</p>
+
+    <h2>Objekter</h2>
+    <p>JavaScript objekter deklareres lidt ligesom i Json. Man opretter 'keys' med tilhørende 'values', som det nedestående eksempel, hvor objektet 'myObject' har attributerne 'firstName', 'lastName' og 'age' b.</p>
+    <img id="objekt" src="../images/objekt.PNG" alt="Object">
+
+    <h2>Arrays</h2>
+    <p>Som i mange andre sprog, gør JavaScript brug af Arrays. Her er det lidt anderledes, fordi man kan gemme forskellige datatyper i det samme Array.
+    De fungerer lidt ligesom 'Stack' i Java, fordi man kan bruge metoderne <b>pop()</b> og <b>push("nytElement")</b> til at fjerne det sidste element og tilføje et element i slutningen af Array'et.</p>
+    <p>Derudover er det også godt at kende metoden <b>splice()</b> til Arrays, så man også kan tilføje elementer andre steder i Array'et.</p>
+    <img id="splice-img" src="../images/splice.PNG" alt="Splice Metode">
+
+
+
+
+
+</body>
+</html>
