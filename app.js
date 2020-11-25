@@ -30,12 +30,6 @@ app.get("/javascript", (req,res)=> {
     return res.send(header + navMenu + javaScript);
 });
 
-
-
-
-
-
-
 //Serveren
 const port  = process.env.PORT || 9000;
 

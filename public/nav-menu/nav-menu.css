@@ -18,7 +18,7 @@
     color: white;
 }
 
-a.current {
+.menu-btn a.current {
     background-color: #2f4454;
     color: white;
 }
