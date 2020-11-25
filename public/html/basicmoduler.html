@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>De basale moduler</title>
-    <link rel="stylesheet" href="../MyCSS.css">
-    <link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="menu">
-        <a href="/">Forside</a>
-        <a href="/basicmoduler" class="current">De basale moduler</a>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-        <a href="#">Link 4</a>
-    </div>
+
     <h1>Moduler i Node.js</h1>
     <p>Når man installerer Node.js på sin computer, gør man det muligt at importere custom libraries, kaldet for moduler, som giver JavaScript flere funktionaliter end selve JavaScript-sproget tillader.
     Der bliver som nævnt importeret JavaScript-filer med funktioner, som kalder C++ metoder i V8.</p>
@@ -28,8 +12,10 @@
     <img id="npm-img" src=" ../images/npm.PNG" alt="NPM-websiden"/>
     <p>Når man installerer moduler, bliver 'package.json' filen opdateret med modulernes navne og versionen under "dependencies". </p>
     <img id="jasonfil" src="../images/initjson.PNG" alt="package.json">
+    <p>For at bruge modulet, kalder man metoden <b>require('modulNavn')</b> i JavaScript-filen, som forneden:</p>
+    <img id="require-img" src="../images/require.PNG" alt="Require-metoden">
 
-    <p>Her er nogle eksempler på moduler, som jeg har installeret til denne webside.</p>
+    <p>Her er nogle eksempler på moduler, som jeg kender.</p>
     <h2>Express</h2>
     <p>Man skriver "npm i express" i terminalen, som følgende:<p>
     <img id="express-img" src="../images/express.PNG" alt="Express-kommando"/>
@@ -50,6 +36,7 @@
     <p><b>validator</b> er et modul, som validerer data. For eksempel F.eks .isURL(kimberly.suaris@outlook.com) tjekker om mailadressen er skrevet i det rigtige format og returnerer <b>true</b>.</p>
 
     <h2>Chalk</h2>
+    <p><b>chalk</b> modulet kan bruges til at printe til konsollen i farver.</p>
 
 
 
